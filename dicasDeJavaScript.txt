@@ -1,0 +1,28 @@
+- .js = Arquivos programados em javaScript devem levar esse sufixo.
+
+- javaScript usa o estilo camel, ou seja, primeira palavra - letra minuscula no começo, as palavras consequentes levam letras maiúscula.
+
+- Propriedades constantes e escritas levam letras maíusculas na palavra inteira.
+
+- Para uma limpeza melhor do seu código usamos vários arquivos '.js' para cada elemento contido no código. Isso ajuda na organização.
+
+- Sempre que realizar algo de um 'lado' do código e for espelhar para o outro 'lado', devemos espelhar as operações:
+    + vira -;
+    x vira /;
+    > vira <;
+    e vice versa.
+
+- Você pode usar a função 'print()' para avaliar pontos de seu código e assim tirar dúvidas e resolver problemas encontrados neles.
+
+- +=: Usamos quando queremos dizer que algo é igula a si mesmo mais outro valor;
+
+- widht = Largura total;
+- height = Altura total;
+
+- Eixo x:
+    Adiciona para 'andar' para esquerda;
+    Subtrai para 'andar' para direita.
+- Eixo y:
+    Adiciona para 'andar' para baixo,
+    Subtari para 'andar' para cima.
+
