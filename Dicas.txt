@@ -1,4 +1,0 @@
-Se estiver com dificuldade procure se alguem já não teve a mesma, e disponibilizou o código/resposta online.
-
-Refatoração:
-    Melhorar o código, deixando-o mais claro e limpo. Sem mudar sua tarefa, atraves de funções.

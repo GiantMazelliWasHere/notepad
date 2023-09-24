@@ -1,0 +1,30 @@
+Como o computador funciona:
+    - Código = linguagem de auto nível;
+    
+    - Código de máquina = linguagem do computador:
+        
+        * Representado pelo código binário:
+            
+            # Se passa energia no fio o computador entende como 1;
+            
+            # Se não passa energia no fio o computador entende como 0.
+    
+    - Cada um desses 0s e 1s é chamado de bit(Binary Digit). Essa é a menor unidade possível para o armazenamento de informação;
+    
+    - Costumasse trabalhar com grupos de 8bits, esse agrupamento é chamado de byte. Medida usada para medir armazenamento em um computador:
+        
+        * b = bits;
+        
+        * B = byte;
+            
+            # Muito comum encontra-la com os sufixos:
+                
+                - K: Mil;
+                
+                - M: Milhão;
+                
+                - G: Bilhão;
+                
+                - T: Trilhão.
+        
+        * 1B = 8b;

@@ -1,0 +1,48 @@
+COMPILADOR x INTERPRETADOR:
+
+Compilador:
+código Fonte --Tradutor--> Código de Máquina ----------> Executar
+
+- Exemplo:
+Livro em inglês --Tradutor--> Livro em português ----------> Leitor
+
+* Con do compilador é o fator de ter uum tempo extra para compilar
+* Para alta performance geralmente usamos linguagens compiladas
+
+Interpretador:
+Código fonte --Tradutor/Linha de código (1001001)--> Executar
+
+- Exemplo:
+americano --Good morning!--> Interprete --Bom dia!--> Brasileiro
+
+  Compiladores                   |   Interpretadores
+Execução rápida                  | Execução lenta
+Verifica erros antes de executar | Só verifica erros executando
+Tempo extra para executar        | começa a executar na hora
+Executa em uma maquina           | Executa em diferentes maquinas
+                             Linguagens
+C; Rust; Go(Golang)              | javaScript; Python; php; Ruby
+                             Usados em
+Sistems operacionais;            | Web App
+Motores para jogos;              | Servidores
+Servidores (Alta quantidade).    | Data Science
+
+Uma mesma linguagem podem ter os dois tipos de implementações ou até uma implementação hibrida.
+
+IMPLEMENTAÇÕES MODERNAS:
+
+JIT compilation - Just in time - Compilação na hora certa.
+
+O método que compila apenas o necessário durante a execução.
+
+Rápido como um código compilado e fácil como um código interpretado.
+
+CASO JAVA:
+
+Problema a resolver:
+
+    Compilar o código e rodar em diversas maquinas;
+
+Solução:
+
+    Código fonte --Compilador--> Byte code --Interpretador(JVM - Java Virtual Machine)--> Executar
