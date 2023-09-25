@@ -1,0 +1,56 @@
+CPU - Central Process Unit - Unidade Central de Processamento
+
+Recebe as instruções da RAM
+
+é separada em:
+    UC = Unidade de controle:
+        - Encarregada de analisar os bits e extrair as intruções contidas neles e coordenar todos os estados do processador para executar a intrução.
+    ULA = Unidade Lógica Aritimética:
+        - Realiza as operações matemáticas(+, -, * e /), de comparação(> e <) e de lógica (verdadeiro, falso, 'e' e 'ou').
+    Registradores:
+        - Responsaveis pela memória do processador;
+        - Exemplo de memória: Instrução atual; posição da instrução atual; valores intermediarios;
+        - Memória pequena para algo local do processador.
+
+        Tipos:
+            - Instrução: Guarda a instrução coletada no passo 'Buscar'
+            - Contador: Define em qual index ou endereço da RAM o pc buscará a instrução (Paddrão é zero porém podemos seta-lo com código)
+            - Acumulador: Armazena os dados após a execução da instrução
+            - Clock: Responsavel por fazer com que o cilco de execução siga um rítimo padrão. Acada 'tik' do relógio o computador passa de fase para o próximo passo.
+                * 3Ghz = 3bilhões de tiques por segundos.
+
+As instruções do computador são como uma linha de produção: Ciclica e definida
+- Passo a passo:
+    1. Buscar/Fetch:
+        Olha a memoria RAM e pega a instrução e guarda no registrador a 'instrução'
+    2. Decodificar:
+        A instrução é enviada para o UC para interpretação da instrução.
+    3. Executar:
+        Executa a ação e guarda no registrador "Acumulador"
+
+PROCESSADORES MODERNOS:
+
+P = Pipeline de instruções
+
+Core Núcleo:
+    Buscar Decodificar Executar
+           Buscar      Decodificar Executar
+                       Buscar      Decodificar Executar
+Dois núcleos:
+Buscar Decodificar Executar
+Buscar Decodificar Executar
+        Buscar      Decodificar Executar
+        Buscar      Decodificar Executar
+                    Buscar      Decodificar Executar
+                    Buscar      Decodificar Executar
+
+Dual-core = Dois cores ou núcleos para realizar o cilco;
+Quad-core = Quatro cores ou núcleos para realizar o cilco.
+
+TAREFAS SIMULTANEAS
+
+Quando o SO vai realizar varias tarefas ele realiza a seguinte regra.
+
+Ele atribui um tempo para cada tarefa. As coloca numa dila e deixa cada uma rodar pelo seu tempo programado e segue a fila.
+
+Alguma dispositivos são programados para receberem prioridade na fila de execução.

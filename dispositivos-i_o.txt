@@ -1,0 +1,32 @@
+DISPOSITIVOS DE ENTRADA E SÁIDA
+INPUT / OUTPUT
+I / O
+
+Entrada:
+    - Teclado;
+    - Mouse;
+    - Webcam;
+    - Microfone.
+Saída:
+    - Tela;
+    - Headset / Autofalante;
+    - Impressora
+
+Pixel = RGB
+    São atualizados linha por linha, pixel por pixel da esquerda para a diretia.
+
+Placa de vídeo:
+    - Usada para fazer os processamentos dos cálculos de procisão e cor dos pixeis da tela.
+Teclado:
+    - As teclas são como interuptores e quando clicamos energisamos essa corrente informando o computador qual tecla clicamos baseada na posição e qual formato do taclado;
+    - Teclado USA: Tecla do lado do 'l' é ';';
+    - Teclado ABNT: Tecla do lado do 'l' é 'ç'.
+
+Sabendomodificar isso podemos modificar a informação recebida pelo computador sem precisar mudar o teclado físico.
+
+Drivers de dispositivos:
+    - Permitem que escrevemos o mesmo código para diversos dispositivos diferentes.
+GPU = Graphics Processing Unit:
+    - Também usada no Machine Learning e Data Science.
+TPU = Tensor Processing Unit:
+    - Criada para substituir a GPU no Machine Learning.

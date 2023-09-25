@@ -1,0 +1,45 @@
+DRAM - Dynamic Ram - +barata porém +lenta - cabe bastante dados;
+SRAM - Static RAM - +rápida porém +cara - não cabe muitos dados - memória cache.
+|_ Adicionado no processador para guardar dados que estamos usando no momento.
+
+Memória cache - Usado para facilitar a troca de informações entre RAM e processador para 'encurtar' o caminho percorido pela informação.
+
+
+      Core                   Core
+ ----------------       ----------------
+|                |     |                |
+|      CPU       |     |      CPU       |
+|                |     |                |
+ ----------------       ----------------
+|    Cache L1    |     |    Cache L1    |
+|                |     |                | 
+ ----------------       ----------------
+|                |     |                |
+|    Cache L2    |     |    Cache L2    |
+|                |     |                |
+ ----------------       ----------------
+ ---------------------------------------
+|                                       |    
+|             Cache L3                  |
+|                                       |
+ ---------------------------------------
+
+Chache L1 = Menor, rápido;
+Cache L2 = Um pouco maior que o L1 e mais lento
+Todos os cores/núcleos tem L1 e 2
+L3 = Maior que o L2, mais lento e compartilhado entre os cores (Só aparece em processadores com 2 ou mais cores)
+
+OUTROS USOS DO CACHE:
+
+Navegadores:
+    - Guardar dados de páginas já acessadas para carregamento mais rápido.
+Banco de dados:
+    - Guardar valores muito pedidos para acelerar a resposta.
+Servidores:
+    - Guardar serviços mais requisitados, como a página inicial de um site;
+    - Processo normalmente feito em conjunto com uma CDN (content Delivery Network). Elas básicamente distribuem copias das suas mídias para diversos servidores para que o dado esteja mais próximo de você o possível.
+
+Linguagens Cahce-Friendly:
+    - É o nome dado as lingugens, como C e C++, que oforecem um controle maior na alocação de memória e podem ter seu tempo de execução influenciado pela memória cache;
+    - Ou seja só mudando a ordem de alguns trechos de código, ele pode ficar bem rápido ou lento;
+    - Isso ocorre porque a execução pode não ser feita de forma linear. Assi, quando o computador for copiar um bloco de dados para o cache, o próximo elemento da nossa lista nunca vai estar la.
