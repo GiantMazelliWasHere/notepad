@@ -43,3 +43,48 @@ Linguagens Cahce-Friendly:
     - É o nome dado as lingugens, como C e C++, que oforecem um controle maior na alocação de memória e podem ter seu tempo de execução influenciado pela memória cache;
     - Ou seja só mudando a ordem de alguns trechos de código, ele pode ficar bem rápido ou lento;
     - Isso ocorre porque a execução pode não ser feita de forma linear. Assi, quando o computador for copiar um bloco de dados para o cache, o próximo elemento da nossa lista nunca vai estar la.
+
+
+HIERARQUIA DE MEMÓRIA:
+
+Particularidade das memórias:
+- Custo da memórias;
+- Capacidade de armazenamento;
+- Velocidade de armazenatmento;
+- Velocidade de acesso.
+
+Quanto mais tempo, menos capacidade de armazenamento. E vice e versa.
+
+Registradores | 1 ciclo de clock | ~ 500bytes
+Cache L1      | 700 GB/s         | 64 KB
+Cache L2      | 200 GB/s         | 500 KB
+Cache L3      | 150 GB/s         | 4 MB
+RAM           | 10 GB/s          | 8 GB
+SSD           | 2 GB/s           | 500 GB
+HD            | 200 MB/s         | 4 TB
+Cloud         | 2 MB/s           | PB ou EB
+              V                  V  
+
+Uma camada apenas conversa com a camada diretamente a cima ou abaixo dela
+
+PRINCIPIO DE LOCALIDADE:
+
+Localidade Temporal:
+    - Se eu acessei agora, devo acessar de novo em breve.
+Localidade Espacial:
+    - Se eu acessei esse, devo acessar seu vizinho em breve.
+
+32bit ou 64bit:
+
+- Tamanho de informação que pode ser processada na CPU em um ciclo de clock - Dados guardados nos registradores;
+
+Precessadores de 32bits:
+    - Guardam a informação numa sequência binária com 32 dígitos.
+Processadores de 64bits:
+    - Guardam a informação numa sequência binária com 64 dígitos;
+    - Tem mais performance, pois processa mais de uma só vez com optimizações mais complexas;
+    - Tem mais memória, pois pode ter até 16bilhões de GB de RAM.
+
+Num processador de 32bits não da para ter mais que 4GB de RAM.
+
+Processadores de 32bits não leem instaladores de 64bits. Processadores de 64bits tem suporte para ler instaladores de 32bits.

@@ -1,0 +1,31 @@
+- Para representarmos numeros basta usar os Bytes;
+- Para representar caracteres temos que na memória associalos a números assim eles seram representados quando o número aparecer.
+
+UNICODE:
+
+- Só numeros;
+- Ele atribui apenas números aos caracters, seja: letrea, Katakana, emoji, qualquer outro caractere.
+- Porém levam muitos bytes para serem representados.
+
+UTF-8:
+
+- Carecteres de tamanhos variados;
+- O mais usado útimamente, em 202 95% da web usava UTF-8;
+Qualquer caractere proveniente das tabelas 'AESC' e 'Latin 1' usam apenas 1byte. Qualquer outro usará mais bytes.
+
+utf-8:
+    - Representa em pedaços de 8bits;
+    - Mantem textos codificados em ASCII intactos;
+    - Tamanho varia entre 8, 16, 24 ou 32bits;
+    - Essa é a codificação mais comum na web hoje.
+utf-16:
+    - Representa em pedaços de 16bits;
+    - Não é mais compatível com ASCII;
+    - Dobro da memória em textos somente em inglês;
+    - Tamanho variável entre 16 e 32bits;
+    - Ocupa menos espaço em textos de caracteres asiaticos (UTF-8 3bytes / UTF-16 2bytes)(Essa vantagem ainda é questionada e muitos não recomendam).
+utf-32:
+    - Representa em pedaços de 32bits;
+    - Não compatível com ASCII;
+    - 4 vezes mais memória em texto ASCII;
+    - Sua vantagem e o tamanho fixo de 32bits, o que deixa facil saber onde cada caractere está, é só pegar o índice e multiplicar por 32.
