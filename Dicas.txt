@@ -2,3 +2,22 @@ Se estiver com dificuldade procure se alguem já não teve a mesma, e disponibil
 
 Refatoração:
     Melhorar o código, deixando-o mais claro e limpo. Sem mudar sua tarefa, atraves de funções.
+
+Devemos sempre ficar de olho na quantidade de memoria que a execução do nosso código irá gastar para não nos perdemos nos limites de RAM.
+
+Dentro dos blocos de código damos 'tab' para identar e mostrar hierarquia (Ou no caso de Python, para que o coódigo rode sem erros).
+
+Em programação a primeira posição de um array ou lista é indicado por zero. Ou seja seu index é: 0, 1, 2, 3, 4, 5, etc.
+
+CONVENÇÃO:
+
+Foi definido que devemos mantar as tags do html em letras mínusculas, podemos colocar em maiusculas(iriam funcionar, porém não é algo bem visto);
+
+Na criação de documentos devemos seguir a parametrização: Todo o texto em mínuscula, sem acento, separar palavras com o underline e sempre adicionar o sufixo correto baseado na lingua do código.
+    Exemplo: .html para html; .py para Python e .js para javaScript.
+
+No caso de javaScript: 
+    - Ele é case sensitive, ou seja seus comandos devem ser em mínuscula ou o navegador ou programa não conseguira ler;
+    - Nomes de variáveis começam co mínuscula e se tem duas palavras a convenção é escrever a inicial da segunda em maíusucla. Essa regra se aplica a todas as palavras adicionais;
+    - Funções vem primeiro que tudo, e sempre nomes baseados no verbo que ela realiza;
+    - Nome de variaveis array ou listas convencionalmente são no plural.
