@@ -113,3 +113,30 @@ get = Os parâmetros vão dentro da URL:
 - Começam com '?' vem o nome colocamos '=' para separa o valor e quando temos mais de um parâmetro usamos o '&' para separa-los
 
 post = Os parâmetros vão dentro da requisição.
+
+Web services:
+
+Disponibiliza uma funcionalidade na web, atráves do protocolo HTTP.
+As funcionalidades variam dependendo da necessidade do négocio/empresa.
+Os dados não vem em html mas sim em algum formato independente da visualização, como xml e json.
+
+Methods:
+- verbos do HTTP
+
+Comuns no desenvolvimento web:
+get - Receber dados (Parametros na url)
+post - submeter dados (parametros no corpo da requisição)
+
+Usado no desenvolvimento ed Web services:
+delete - Remover um recurso
+put - Atualizar um recurso
+
+Para requisições de formatos especificos:
+
+usamos o formato
+
+accept:*/**
+
+
+*Tipo do documento (Texto, imagem, etc)
+**Formato do documento (jpeg, html, json, etc)
