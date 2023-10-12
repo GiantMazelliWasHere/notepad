@@ -1,0 +1,19 @@
+Os Codes mais conhecidos/comuns de acontecer:
+
+200 - Okay
+
+301 - Moved Permanently
+
+404 - Not Found
+
+500 - Internal Server Error
+
+Padrão dos Status Codes:
+
+2XX - Successful Responses
+
+3XX - Redirection Messages
+
+4XX - Cliente Error Responses
+
+5XX - Server Error Responses

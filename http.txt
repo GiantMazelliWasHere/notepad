@@ -102,3 +102,14 @@ http (Request-Response):
 - Uma requisição precisa ter todas as informações para o srvirdor gerar a resposta;
 - http é Stateless!(não mantém informações entre requisições);
 - As plataformas de desenvolvimento usam sessões para guardar informações entre requisições.
+
+No HTTP é sempre assim:
+
+Usuário -----> Request -----> Espera -----> Servidor ----> Resposta
+
+Requisição de URL:
+
+get = Os parâmetros vão dentro da URL:
+- Começam com '?' vem o nome colocamos '=' para separa o valor e quando temos mais de um parâmetro usamos o '&' para separa-los
+
+post = Os parâmetros vão dentro da requisição.
