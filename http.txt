@@ -27,7 +27,7 @@ https = http + ssl/tls
 Hypertex Transfer Protocol + Secure Socket Layers / Transport Layer Security
 
 Para ser seguro:
- - O site tem que ter uam identidade e um certificado digital. Este certificado garante que a página tem uma chave pública e um privada de criptográfia,
+ - O site tem que ter uma identidade e um certificado digital. Este certificado garante que a página tem uma chave pública e um privada de criptográfia,
  ou seja ao mandarmos nossos dados eles seram criptografados paenas o servidor com a chave privada correta e que 'bate' com a chave pública podera let nossos dados de forma descriptografada.
  - Quando digo bater, me refiro que ambas fazem parte do mesmo par.
  - Podemos ver se um site é seguro se ela tem um cadeado ao lado da url e está confirmando que este é
