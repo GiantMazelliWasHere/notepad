@@ -1,8 +1,0 @@
-https://www.alura.com.br:443/course/introducao-html-css
-
-- https://www                 = Isso informa que estamos na web;
-- https                       = Protocolo;
-- https://www.alura.com.br    = Domínio;
-- .br                         = Especificação de país;
-- :443                        = porta (opicional);
-- /course/introducao-html-css = Recurso que estamos buscando.

@@ -1,6 +1,0 @@
-Cookies:
-- Quando falamos deles nos referimos na verdade aos cookies HTTP ou Cookies web;
-- Um cookie é um pequeno arquivo de texto, normalmente criado pela aplicação web, para guardar algumas informações sobre o úsuario no navegador;
-- Quais informações que ficaram guardadas depende do tipo e utilidade da aplicação web.
-
-Eles podem armazenar preferéncias do usuário, informações de compras na loja virtual ou a identificação do usuário.
